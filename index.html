@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ee">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bosco Business</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+        * {    
+            margin:0;
+            box-sizing: border-box;
+            }
+        body {
+            font-family: "Oswald", serif;
+        }
+        nav {
+            background-color: midnightblue;
+            color:white;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        nav a {
+            color:white;
+            text-decoration: none;
+        }
+        header {
+            background-image: url(images/business.jpg);
+            height: 200px;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        #titular {
+            border: 2px solid red;
+            text-align: center;
+        }
+        .titulo {
+            color:purple;
+            font-size: 0.9em;
+        }
+        #lodicen {
+            text-align: center;
+
+        }
+        #lodicen img {
+            border-radius: 50%;
+        }
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: grey;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Quienes Somos</a>
+        <a href="#">Consultoría</a>
+        <a href="#">Diseño Web</a>
+        <a href="#">Dónde Estamos</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <header>
+        <div id="titular">
+            <h1>Bosco Business</h1>
+            <h2>Tu puerta al futuro</h2>
+        </div>
+    </header>
+    <section id="lodicen">
+        <h2 class="titulo">
+            Lo dicen nuestros clientes
+        </h2>
+        <img src="images/chica.jpg" alt="">
+        <h4>Bosco Busines es la solución para mi empresa</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quos odio rem a nobis illo iusto error corporis dolorum, praesentium porro nemo optio voluptates, vel iste amet alias molestias doloribus!</p>
+    </section>
+    <footer>
+        <p>&copy;2024 Bosco Design S.L.</p>
+    </footer>
+</body>
+</html>
